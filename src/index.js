@@ -5,6 +5,12 @@ const socketio = require('socket.io');
 const server = http.createServer(app);
 const io = socketio.listen(server);
 const path = require('path');
+const mongoose = require('mongoose');
+
+//db connection
+mongoose.connect('mongodb://localhost/chat-database')
+    .then(db => console.log('db connected'))
+    .catch(err => console.log(err));
 
 //settings
 app.set('port', process.env.PORT || 3000);
