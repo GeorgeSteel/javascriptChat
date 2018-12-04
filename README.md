@@ -5,12 +5,13 @@ con el proposito de conocer **NodeJS** y poder realizar proyectos con esta tecno
 en un futuro cercano.
 
 El chat empieza por un login el cual no es nada complicado, simplemente ingresas
-tu nombre de usuario y pudes acceder a la sala junto con las otras personas.
+tu nombre de usuario y pudes acceder a la sala junto con las otras personas. Si una
+persona entra al chat  vera los msjs anteriores pero con un diseño distinto.
 
 ![Login](http://img.fenixzone.net/i/L37yJin.png)
 
-No se a usado ninguna base de datos como **MongoDB**, se uso un arreglo para esta
-función, aunque el plan es añadir esta a futuro.
+La version 2.0 ya esta actualizada con **MongoDB** integrado, simplemente es un schema 
+con el msg, nick y el date.
 
 ## Capturas:
 
