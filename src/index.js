@@ -8,7 +8,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 
 //db connection
-mongoose.connect('mongodb://localhost/chat-database', { useNewUrlParser: true })
+mongoose.connect('mongodb://jorge:code69@ds225624.mlab.com:25624/chat-database', { useNewUrlParser: true })
     .then(db => console.log('db connected'))
     .catch(err => console.log(err));
 
