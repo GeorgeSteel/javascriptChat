@@ -49,6 +49,8 @@ module.exports = function (io){
             updateNicknames();
         });
 
+        
+
         function updateNicknames() {            
             io.sockets.emit('usernames', Object.keys(users));
         }

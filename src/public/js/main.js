@@ -32,7 +32,7 @@ $(function (){
     messageForm.submit(e => {
         e.preventDefault();
         socket.emit('send message', messageBox.val(), data => {
-            chat.append(`<p class"error">${data}</p>`)
+            chat.append(`<p class="error">${data}</p>`)
         });
         messageBox.val('');
     });
@@ -47,7 +47,11 @@ $(function (){
             html += `<p><i class="fas fa-user"></i> ${data[i]}</p>`;            
         }
         users.html(html);
-    })
+    });
+
+    socket.on('private', data => {
+        chat.append(`<p class="private"><b>${data.nick}:</b> ${data.msg}</p>`);
+    });
     
 
 })
