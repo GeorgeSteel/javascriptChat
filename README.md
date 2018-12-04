@@ -1,4 +1,4 @@
-#Chat con Javascript, NodeJS y Socket.io
+# Chat con Javascript, NodeJS y Socket.io
 
 Este es un ejemplo de chat grupal exclusivamente con tecnologias de **JavaScript**, 
 con el proposito de conocer **NodeJS** y poder realizar proyectos con esta tecnologia
