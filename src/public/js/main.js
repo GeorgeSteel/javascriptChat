@@ -56,11 +56,11 @@ $(function (){
     socket.on('load old msgs', msgs => {
         for (let i = 0; i < msgs.length; i++) {
             displayMsg(msgs[i]);            
-        }
-        
+        }            
+    });
+
     function displayMsg(data) {
         chat.append(`<p class="private"><b>${data.nick}:</b> ${data.msg}</p>`);
     }
-    });
 
 })
