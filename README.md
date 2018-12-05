@@ -6,12 +6,15 @@ en un futuro cercano.
 
 El chat empieza por un login el cual no es nada complicado, simplemente ingresas
 tu nombre de usuario y pudes acceder a la sala junto con las otras personas. Si una
-persona entra al chat  vera los msjs anteriores pero con un diseño distinto.
+persona entra al chat  vera los msjs anteriores pero con un diseño distinto, ademas 
+de poder enviar msjs privados con: */p nombreusuario mensaje*.
 
 ![Login](http://img.fenixzone.net/i/L37yJin.png)
 
 La version 2.0 ya esta actualizada con **MongoDB** integrado, simplemente es un schema 
 con el msg, nick y el date.
+
+[Ver proyecto en funcionamiento.](https://javascript-chat.herokuapp.com/)
 
 ## Capturas:
 
